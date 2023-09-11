@@ -22,7 +22,7 @@
 	    <param name="distance2personsFileName" value="$(arg store_folder)$(arg world)_distance2persons.csv" />
 	    <param name="time2goalFilename" value="$(arg store_folder)$(arg world)_metrics.csv" />
 	    <param name="timeInPersonAreaFileName" value="$(arg store_folder)$(arg world)_timeInPersonalArea.csv" />
-	    <param name="robotPositionsFileName" value="$(arg store_folder)$(arg world)_robotPositionsFileName.csv" />
+	    <param name="robotPositionsFileName" value="$(arg store_folder)$(arg world)_agentPositionsFileName.csv" />
 	    <param name="personalAreaRadius" value="$(arg personal_area_radius)" />
 	    <param name="distance_collition" value="$(arg distance_collition)" />
 		<param name="actorId" value="$(arg actorId)" />

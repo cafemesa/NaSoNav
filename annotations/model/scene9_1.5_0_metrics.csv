@@ -1,2 +1,2 @@
 Init Agent Position X,Init Agent Position Y,Goal Agent Position X,Goal Agent Position Y,Time to goal (s),Path Lenght to goal (m),Avg Agent Speed (m/s),Min Ditance to Person (m),Max Time in Personal Area (s),Agent Id,Ped. Collitions
-12.915,6.1767,-1.52672,8.42944,25.875,14.9706,0.601586,0.311991,0.99,315,1
+12.915,6.1767,-1.52672,8.42944,25.879,14.9706,0.601221,0.311991,0.981,315,1
