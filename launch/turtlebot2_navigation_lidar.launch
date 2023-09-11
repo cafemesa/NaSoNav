@@ -1,0 +1,110 @@
+<launch>
+
+	<!-- World to be executed sceneX_Y.Y_Z. 
+	X is the scenario ID [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 
+	Y.Y is the speed [0.3, 0.4, 0.5, 0.7, 1.0, 1.5]
+	z is type of environment [0 with the agent, 1 without the agent] -->
+	<arg name="world" default="scene0_0.3_1" /> 
+
+	<arg name="gazebo_origin_x" default="12.091963" /><!-- GAZEBO origin x -->
+	<arg name="gazebo_origin_y" default="5.868032" /><!-- GAZEBO origin y -->
+	<arg name="gazebo_goal_x" default="0.700344" /><!-- GAZEBO goal x -->
+	<arg name="gazebo_goal_y" default="4.908462" /><!-- GAZEBO goal y -->
+	<arg name="robot_yaw" default="2.945059" /> <!-- Root orientation -->
+	<arg name="linear_velocity" default="0.5" /> <!-- Linear Robot Speed -->
+	<arg name="amcl_origin_x" default="0" /><!-- RVIZ origin x -->
+	<arg name="amcl_origin_y" default="0" /><!-- RVIZ origin y -->
+	<arg name="method" default="unaware" /> <!-- "unaware", "sf", "rvo" "apa", "sacadrl" -->
+	<arg name="personal_area_radius" default="1.2" /> <!-- For time in personal area metric -->
+	<arg name="distance_collition" default="0.45" /> <!-- Distance to another person to count as collision -->
+	<arg name="store_folder" default="$(find social_navigation_testbed)/annotations/tests/" /> <!-- Folder path to store metric files -->
+	<arg name="min_distance_person" default="0.45" /><!-- RVIZ origin y -->
+
+	<!-- Launch Turtlebot Simulator -->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="use_sim_time" value="true" />
+		<arg name="debug" value="false" />
+		<arg name="gui" value="false" />
+		<arg name="world_name" value="$(find social_navigation_testbed)/worlds/$(arg world).world" />
+	</include>
+
+	<arg name="urdf_file" default="$(find xacro)/xacro '$(find social_navigation_testbed)/launch/Turlebot_Velodyne_Model/kobuki.urdf.xacro'" />
+	<param name="robot_description" command="$(arg urdf_file)" />
+	
+    <!-- Gazebo model spawner -->
+	<node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model" args="-x $(arg gazebo_origin_x) -y $(arg gazebo_origin_y) -Y $(arg robot_yaw)  -unpause -urdf -param robot_description -model mobile_base" />
+	
+    <!-- Velocity muxer -->
+	<node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager" />
+	<node pkg="nodelet" type="nodelet" name="cmd_vel_mux" args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
+		<param name="yaml_cfg_file" value="$(find turtlebot_bringup)/param/mux.yaml" />
+		<remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity" />
+	</node>
+
+	<!-- Bumper/cliff to pointcloud (not working, as it needs sensors/core messages) -->
+	<include file="$(find turtlebot_bringup)/launch/includes/kobuki/bumper2pc.launch.xml" />
+	<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+		<param name="publish_frequency" type="double" value="30.0" />
+	</node>
+
+	<!-- Start PointCloud Fast Filter (Convert 3D PointCloud into 2D Laser) -->
+	<node name="traversable_scan" pkg="traversable_mapping" type="traversable_scan">
+		<param name="subSensorTopic" value="/velodyne_points" />
+		<param name="subRobotPoseTopic" value="/amcl_pose" />
+		<param name="pubScanTopic" value="/scan" />
+		<param name="pubPointCloudTopic" value="/pointcloud_traversable" />
+		<param name="pubFrameId" value="base_link" />
+		<param name="robotHeight" value="0.85" />
+		<param name="sensorHeight" value="0.74" />
+		<param name="scanResolution" value="0.2" />
+		<param name="horizontalFieldOfView" value="360" />
+		<param name="pubScan" value="true" />
+		<param name="pubPointcloud" value="true" />
+	</node>
+
+	<!-- Start Robot controller -->
+	<group if="$(eval method == 'sacadrl')">
+		<node name="sacadrl" pkg="social_navigation_testbed" type="sacadrl.py">
+			<param name="goal_x" value="$(arg gazebo_goal_x)" />
+			<param name="goal_y" value="$(arg gazebo_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+	<group if="$(eval method != 'sacadrl')">
+		<node name="robot_controller" pkg="social_navigation_testbed" type="robot_controller">
+			<param name="method" value="$(arg method)" />
+			<param name="goal_x" value="$(arg gazebo_goal_x)" />
+			<param name="goal_y" value="$(arg gazebo_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+	
+	<!-- Store anotation node -->
+	<node name="store_annotations" type="store_annotations" pkg="social_navigation_testbed" output="screen" >
+ 		<param name="distance2personsFileName" value="$(arg store_folder)$(arg world)_$(arg method)_distance2persons.csv" />
+	    <param name="time2goalFilename" value="$(arg store_folder)$(arg world)_$(arg method)_metrics.csv" />
+	    <param name="timeInPersonAreaFileName" value="$(arg store_folder)$(arg world)_$(arg method)_timeInPersonalArea.csv" />
+		<param name="robotPositionsFileName" value="$(arg store_folder)$(arg world)_$(arg method)_robotPositionsFileName.csv" />
+		<param name="personalAreaRadius" value="$(arg personal_area_radius)" />
+		<param name="distance_collition" value="$(arg distance_collition)" />
+		<param name="min_distance_person" value="$(arg min_distance_person)" />
+		<param name="goal_x" value="$(arg gazebo_goal_x)" />
+		<param name="goal_y" value="$(arg gazebo_goal_y)" />
+	</node>
+
+	<!-- Map server -->
+	<node name="map_server" pkg="map_server" type="map_server" args="$(find social_navigation_testbed)/maps/map.yaml" />
+	<!-- Localization -->
+
+	<include file="$(find turtlebot_navigation)/launch/includes/amcl/kinect_amcl.launch.xml">
+		<arg name="initial_pose_x" value="$(arg amcl_origin_x)" />
+		<arg name="initial_pose_y" value="$(arg amcl_origin_y)" />
+		<arg name="initial_pose_a" value="$(arg robot_yaw)" />
+	</include>
+
+	<!-- Move base -->
+	<include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml" />
+
+	<!-- Open RViz -->
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find social_navigation_testbed)/rviz_cfg/social_navigation.rviz" />
+</launch>

@@ -1,0 +1,4020 @@
+<sdf version="1.7">
+	<world name="default">
+		<actor name="actor0">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							11.060779 5.881293 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							19.999900
+						</time>
+						<pose>
+							11.060779 5.881293 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							20.000000
+						</time>
+						<pose>
+							11.060779 5.881293 0 0 0 2.914509
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							21.680000
+						</time>
+						<pose>
+							10.401596 6.033609 0 0 0 2.891585
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							23.360000
+						</time>
+						<pose>
+							9.890709 6.180069 0 0 0 2.906070
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							25.040000
+						</time>
+						<pose>
+							9.330377 6.290677 0 0 0 2.946703
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							26.720000
+						</time>
+						<pose>
+							8.761480 6.402974 0 0 0 2.928939
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							28.400000
+						</time>
+						<pose>
+							8.060075 6.564958 0 0 0 2.923949
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							30.080000
+						</time>
+						<pose>
+							7.514217 6.678802 0 0 0 2.899779
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							31.759999
+						</time>
+						<pose>
+							6.962746 6.835603 0 0 0 2.892899
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							33.439999
+						</time>
+						<pose>
+							6.444874 6.950362 0 0 0 2.962483
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							35.119999
+						</time>
+						<pose>
+							5.917518 7.024841 0 0 0 2.962219
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							36.799999
+						</time>
+						<pose>
+							5.385417 7.142465 0 0 0 2.957445
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							38.479999
+						</time>
+						<pose>
+							4.889022 7.216406 0 0 0 2.997389
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							40.159999
+						</time>
+						<pose>
+							4.339943 7.294280 0 0 0 2.962417
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							41.839999
+						</time>
+						<pose>
+							3.785972 7.416189 0 0 0 2.824876
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							43.519999
+						</time>
+						<pose>
+							3.185668 7.672593 0 0 0 2.815537
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							45.199999
+						</time>
+						<pose>
+							2.664037 7.795541 0 0 0 2.910118
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							46.879999
+						</time>
+						<pose>
+							2.135666 7.920078 0 0 0 2.910118
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							48.559999
+						</time>
+						<pose>
+							1.600424 8.046234 0 0 0 2.861499
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							50.239999
+						</time>
+						<pose>
+							1.111840 8.214588 0 0 0 2.728684
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							51.919999
+						</time>
+						<pose>
+							0.624706 8.473691 0 0 0 2.690369
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							53.599998
+						</time>
+						<pose>
+							0.128590 8.691036 0 0 0 2.712330
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							55.279998
+						</time>
+						<pose>
+							-0.321227 8.906672 0 0 0 2.613171
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							56.959998
+						</time>
+						<pose>
+							-0.767912 9.214413 0 0 0 2.575196
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.639998
+						</time>
+						<pose>
+							-1.222768 9.479958 0 0 0 2.613171
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.640098
+						</time>
+						<pose>
+							-1.222768 9.479958 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1005.520100
+						</time>
+						<pose>
+							-1.222768 9.479958 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<actor name="actor1">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							10.935857 6.634516 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							19.999900
+						</time>
+						<pose>
+							10.935857 6.634516 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							20.000000
+						</time>
+						<pose>
+							10.935857 6.634516 0 0 0 2.868747
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							21.680000
+						</time>
+						<pose>
+							10.394153 6.786098 0 0 0 2.861180
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							23.360000
+						</time>
+						<pose>
+							9.884380 6.937343 0 0 0 2.932315
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							25.040000
+						</time>
+						<pose>
+							9.323421 7.013507 0 0 0 2.936874
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							26.720000
+						</time>
+						<pose>
+							8.757667 7.171279 0 0 0 2.897021
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							28.400000
+						</time>
+						<pose>
+							8.223081 7.288116 0 0 0 2.963155
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							30.080000
+						</time>
+						<pose>
+							7.678682 7.365881 0 0 0 2.926420
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							31.759999
+						</time>
+						<pose>
+							7.130782 7.526845 0 0 0 2.876370
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							33.439999
+						</time>
+						<pose>
+							6.659835 7.642622 0 0 0 2.948256
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							35.119999
+						</time>
+						<pose>
+							6.136599 7.721488 0 0 0 2.953017
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							36.799999
+						</time>
+						<pose>
+							5.608664 7.843231 0 0 0 2.948256
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							38.479999
+						</time>
+						<pose>
+							5.116212 7.921262 0 0 0 2.984445
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							40.159999
+						</time>
+						<pose>
+							4.617444 8.000293 0 0 0 2.948256
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							41.839999
+						</time>
+						<pose>
+							4.068570 8.126371 0 0 0 2.937245
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							43.519999
+						</time>
+						<pose>
+							3.322857 8.268584 0 0 0 2.965677
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							45.199999
+						</time>
+						<pose>
+							2.800841 8.351714 0 0 0 2.943020
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							46.879999
+						</time>
+						<pose>
+							2.275132 8.479412 0 0 0 2.903302
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							48.559999
+						</time>
+						<pose>
+							1.742610 8.608764 0 0 0 2.854856
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							50.239999
+						</time>
+						<pose>
+							1.256508 8.779765 0 0 0 2.706218
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							51.919999
+						</time>
+						<pose>
+							0.822285 9.036847 0 0 0 2.590595
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							53.599998
+						</time>
+						<pose>
+							0.336506 9.345087 0 0 0 2.544551
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							55.279998
+						</time>
+						<pose>
+							-0.003665 9.598330 0 0 0 2.518541
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							56.959998
+						</time>
+						<pose>
+							-0.446231 9.907503 0 0 0 2.568390
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.639998
+						</time>
+						<pose>
+							-0.896825 10.174861 0 0 0 2.606081
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.640098
+						</time>
+						<pose>
+							-0.896825 10.174861 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1005.520100
+						</time>
+						<pose>
+							-0.896825 10.174861 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<actor name="actor2">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							-2.969252 5.263275 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							50.239899
+						</time>
+						<pose>
+							-2.969252 5.263275 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							50.239999
+						</time>
+						<pose>
+							-2.969252 5.263275 0 0 0 -0.112103
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							51.919999
+						</time>
+						<pose>
+							-2.363223 5.195051 0 0 0 -0.204576
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							53.599998
+						</time>
+						<pose>
+							-1.882722 5.037843 0 0 0 -0.084573
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							55.279998
+						</time>
+						<pose>
+							-1.441078 5.116876 0 0 0 -0.184488
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							56.959998
+						</time>
+						<pose>
+							-0.978534 4.869112 0 0 0 -0.332122
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.639998
+						</time>
+						<pose>
+							-0.403730 4.759097 0 0 0 -0.070414
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							60.319998
+						</time>
+						<pose>
+							0.174442 4.787792 0 0 0 -0.029645
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							61.999998
+						</time>
+						<pose>
+							0.737237 4.725263 0 0 0 -0.070414
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							63.679998
+						</time>
+						<pose>
+							1.295868 4.708697 0 0 0 -0.029645
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							65.359998
+						</time>
+						<pose>
+							1.846815 4.692359 0 0 0 -0.107658
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							67.039998
+						</time>
+						<pose>
+							2.432860 4.585815 0 0 0 -0.104915
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							68.719998
+						</time>
+						<pose>
+							3.016795 4.569159 0 0 0 -0.028517
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							70.399998
+						</time>
+						<pose>
+							3.544533 4.554105 0 0 0 -0.108233
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							72.079998
+						</time>
+						<pose>
+							4.106473 4.450756 0 0 0 -0.065429
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759998
+						</time>
+						<pose>
+							4.715165 4.477402 0 0 0 -0.027388
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							75.439997
+						</time>
+						<pose>
+							5.263384 4.419062 0 0 0 -0.140259
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							77.119997
+						</time>
+						<pose>
+							5.846349 4.317695 0 0 0 -0.027388
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							78.799997
+						</time>
+						<pose>
+							6.430397 4.387092 0 0 0 0.049451
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							80.479997
+						</time>
+						<pose>
+							6.957038 4.372664 0 0 0 0.010856
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.159997
+						</time>
+						<pose>
+							7.521486 4.398937 0 0 0 0.190307
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							83.839997
+						</time>
+						<pose>
+							8.085716 4.590091 0 0 0 0.260522
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							85.519997
+						</time>
+						<pose>
+							8.636700 4.696231 0 0 0 0.225482
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							87.199997
+						</time>
+						<pose>
+							9.180961 4.841321 0 0 0 0.260522
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							88.879997
+						</time>
+						<pose>
+							9.716607 4.984114 0 0 0 0.146580
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							90.559997
+						</time>
+						<pose>
+							10.278405 5.003346 0 0 0 0.104611
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							92.239997
+						</time>
+						<pose>
+							10.834554 5.101491 0 0 0 0.134151
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							93.919997
+						</time>
+						<pose>
+							11.418567 5.157224 0 0 0 0.058588
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							95.599997
+						</time>
+						<pose>
+							12.029040 5.171554 0 0 0 0.123097
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							97.279996
+						</time>
+						<pose>
+							12.595663 5.302858 0 0 0 0.227711
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							97.280096
+						</time>
+						<pose>
+							12.595663 5.302858 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1011.040100
+						</time>
+						<pose>
+							12.595663 5.302858 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<!--actor name="actor3">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							9.788466 6.584937 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							51.919899
+						</time>
+						<pose>
+							9.788466 6.584937 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							51.919999
+						</time>
+						<pose>
+							9.788466 6.584937 0 0 0 3.082292
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							53.599998
+						</time>
+						<pose>
+							9.101258 6.625737 0 0 0 3.111493
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							55.279998
+						</time>
+						<pose>
+							8.398701 6.626782 0 0 0 3.140105
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							56.959998
+						</time>
+						<pose>
+							7.682175 6.627848 0 0 0 -3.082706
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							58.639998
+						</time>
+						<pose>
+							6.989945 6.543729 0 0 0 -3.020667
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							60.319998
+						</time>
+						<pose>
+							6.284057 6.457950 0 0 0 -2.985400
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							61.999998
+						</time>
+						<pose>
+							5.606486 6.325869 0 0 0 -2.978943
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							63.679998
+						</time>
+						<pose>
+							4.918575 6.233876 0 0 0 -3.008653
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							65.359998
+						</time>
+						<pose>
+							4.217533 6.140127 0 0 0 -3.002476
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							67.039998
+						</time>
+						<pose>
+							3.550451 6.042309 0 0 0 -3.027761
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							68.719998
+						</time>
+						<pose>
+							2.874327 5.986563 0 0 0 -2.995995
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							70.399998
+						</time>
+						<pose>
+							2.179518 5.841282 0 0 0 -2.957873
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							72.079998
+						</time>
+						<pose>
+							1.525016 5.735841 0 0 0 -2.917236
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759998
+						</time>
+						<pose>
+							0.852051 5.538356 0 0 0 -2.844145
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							75.439997
+						</time>
+						<pose>
+							0.218531 5.335348 0 0 0 -2.723712
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							77.119997
+						</time>
+						<pose>
+							-0.384707 4.989196 0 0 0 -2.572880
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							78.799997
+						</time>
+						<pose>
+							-0.948797 4.589247 0 0 0 -2.573274
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							80.479997
+						</time>
+						<pose>
+							-1.572121 4.230914 0 0 0 -2.520217
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.159997
+						</time>
+						<pose>
+							-2.223126 3.676843 0 0 0 -2.436460
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.160097
+						</time>
+						<pose>
+							-2.223126 3.676843 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1008.880100
+						</time>
+						<pose>
+							-2.223126 3.676843 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor-->
+		<actor name="actor4">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							-2.755641 4.543627 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							67.039898
+						</time>
+						<pose>
+							-2.755641 4.543627 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							67.039998
+						</time>
+						<pose>
+							-2.755641 4.543627 0 0 0 -0.026259
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							68.719998
+						</time>
+						<pose>
+							-2.147311 4.527649 0 0 0 0.012415
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							70.399998
+						</time>
+						<pose>
+							-1.543650 4.558674 0 0 0 0.042108
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							72.079998
+						</time>
+						<pose>
+							-0.789130 4.584873 0 0 0 -0.026824
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759998
+						</time>
+						<pose>
+							-0.160363 4.521560 0 0 0 -0.103529
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							75.439997
+						</time>
+						<pose>
+							0.407448 4.460548 0 0 0 0.049267
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							77.119997
+						</time>
+						<pose>
+							1.032414 4.580373 0 0 0 0.079157
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							78.799997
+						</time>
+						<pose>
+							1.687231 4.562064 0 0 0 0.006330
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							80.479997
+						</time>
+						<pose>
+							2.334691 4.588616 0 0 0 0.006613
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.159997
+						</time>
+						<pose>
+							2.968464 4.570537 0 0 0 -0.101242
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							83.839997
+						</time>
+						<pose>
+							3.538575 4.466314 0 0 0 -0.101817
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							85.519997
+						</time>
+						<pose>
+							4.153424 4.449470 0 0 0 -0.027388
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							87.199997
+						</time>
+						<pose>
+							4.804800 4.431625 0 0 0 0.005752
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							88.879997
+						</time>
+						<pose>
+							5.447885 4.456915 0 0 0 0.006035
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							90.559997
+						</time>
+						<pose>
+							6.077625 4.439307 0 0 0 -0.027953
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							92.239997
+						</time>
+						<pose>
+							6.740860 4.420763 0 0 0 0.002752
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							93.919997
+						</time>
+						<pose>
+							7.437780 4.443050 0 0 0 0.003026
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							95.599997
+						</time>
+						<pose>
+							8.077301 4.424808 0 0 0 -0.028517
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							97.279996
+						</time>
+						<pose>
+							8.705858 4.406878 0 0 0 0.004076
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							98.959996
+						</time>
+						<pose>
+							9.325610 4.429896 0 0 0 0.035014
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							100.639996
+						</time>
+						<pose>
+							9.974851 4.451329 0 0 0 0.034996
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							102.319996
+						</time>
+						<pose>
+							10.572941 4.473566 0 0 0 0.161873
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							103.999996
+						</time>
+						<pose>
+							11.205906 4.652363 0 0 0 0.246458
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							105.679996
+						</time>
+						<pose>
+							11.825438 4.788660 0 0 0 0.294420
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							107.359996
+						</time>
+						<pose>
+							12.474839 5.037145 0 0 0 0.365450
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							107.360096
+						</time>
+						<pose>
+							12.474839 5.037145 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1012.480100
+						</time>
+						<pose>
+							12.474839 5.037145 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<actor name="actor5">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							-5.280094 6.365932 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759898
+						</time>
+						<pose>
+							-5.280094 6.365932 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759998
+						</time>
+						<pose>
+							-5.280094 6.365932 0 0 0 0.132772
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							75.439997
+						</time>
+						<pose>
+							-4.744269 6.437495 0 0 0 0.132772
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							77.119997
+						</time>
+						<pose>
+							-4.215290 6.508144 0 0 0 0.123550
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							78.799997
+						</time>
+						<pose>
+							-3.636411 6.575072 0 0 0 0.034075
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							80.479997
+						</time>
+						<pose>
+							-3.074363 6.547036 0 0 0 -0.049840
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.159997
+						</time>
+						<pose>
+							-2.519694 6.519369 0 0 0 -0.049840
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							83.839997
+						</time>
+						<pose>
+							-1.917912 6.489351 0 0 0 -0.123824
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							85.519997
+						</time>
+						<pose>
+							-1.279154 6.364971 0 0 0 -0.092681
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							87.199997
+						</time>
+						<pose>
+							-0.849477 6.390043 0 0 0 -0.003420
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							88.879997
+						</time>
+						<pose>
+							-0.271255 6.361523 0 0 0 -0.179225
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							90.559997
+						</time>
+						<pose>
+							0.184833 6.202658 0 0 0 -0.289135
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							92.239997
+						</time>
+						<pose>
+							0.639762 6.090522 0 0 0 -0.157403
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							93.919997
+						</time>
+						<pose>
+							1.395206 6.010552 0 0 0 -0.144706
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							95.599997
+						</time>
+						<pose>
+							1.985652 5.894393 0 0 0 -0.200628
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							97.279996
+						</time>
+						<pose>
+							2.519015 5.782010 0 0 0 -0.207670
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							98.959996
+						</time>
+						<pose>
+							3.045523 5.671070 0 0 0 -0.200628
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							100.639996
+						</time>
+						<pose>
+							3.612769 5.559579 0 0 0 -0.194074
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							102.319996
+						</time>
+						<pose>
+							4.172140 5.449636 0 0 0 -0.194074
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							103.999996
+						</time>
+						<pose>
+							4.723797 5.341208 0 0 0 -0.155924
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							105.679996
+						</time>
+						<pose>
+							5.270530 5.276969 0 0 0 -0.039209
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							107.359996
+						</time>
+						<pose>
+							5.814706 5.298413 0 0 0 0.000465
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							109.039996
+						</time>
+						<pose>
+							6.348602 5.277469 0 0 0 -0.080377
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							110.719996
+						</time>
+						<pose>
+							6.829092 5.216704 0 0 0 -0.078939
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							112.399996
+						</time>
+						<pose>
+							7.391856 5.194944 0 0 0 -0.115369
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							114.079996
+						</time>
+						<pose>
+							7.899578 5.092652 0 0 0 -0.159148
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							115.759996
+						</time>
+						<pose>
+							8.402674 5.032702 0 0 0 -0.078107
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							117.439996
+						</time>
+						<pose>
+							8.901005 5.014274 0 0 0 -0.077829
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							119.119995
+						</time>
+						<pose>
+							9.390714 4.955648 0 0 0 -0.036963
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							120.799995
+						</time>
+						<pose>
+							9.837368 4.979648 0 0 0 0.092431
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							122.479995
+						</time>
+						<pose>
+							10.319772 5.041767 0 0 0 0.004688
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							124.159995
+						</time>
+						<pose>
+							10.790619 4.984117 0 0 0 -0.211584
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							125.839995
+						</time>
+						<pose>
+							11.213657 4.849761 0 0 0 -0.307521
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							125.840095
+						</time>
+						<pose>
+							11.213657 4.849761 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1015.120100
+						</time>
+						<pose>
+							11.213657 4.849761 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<actor name="actor6">
+			<skin>
+				<filename>
+					walk.dae
+				</filename>
+			</skin>
+			<animation name="walking">
+				<filename>
+					walk.dae
+				</filename>
+				<interpolate_x>
+					true
+				</interpolate_x>
+			</animation>
+			<script>
+				<trajectory id="0" type="walking">
+					<waypoint>
+						<time>
+							0
+						</time>
+						<pose>
+							-5.540035 7.301201 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759898
+						</time>
+						<pose>
+							-5.540035 7.301201 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							73.759998
+						</time>
+						<pose>
+							-5.540035 7.301201 0 0 0 0.121354
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							75.439997
+						</time>
+						<pose>
+							-5.002207 7.366791 0 0 0 0.121354
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							77.119997
+						</time>
+						<pose>
+							-4.471256 7.431542 0 0 0 0.121354
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							78.799997
+						</time>
+						<pose>
+							-3.947050 7.495471 0 0 0 0.027326
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							80.479997
+						</time>
+						<pose>
+							-3.382234 7.461309 0 0 0 -0.060410
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							82.159997
+						</time>
+						<pose>
+							-2.824844 7.427596 0 0 0 -0.060410
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							83.839997
+						</time>
+						<pose>
+							-2.220119 7.391019 0 0 0 -0.094182
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							85.519997
+						</time>
+						<pose>
+							-1.466929 7.299325 0 0 0 -0.094424
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							87.199997
+						</time>
+						<pose>
+							-0.881406 7.264236 0 0 0 -0.098864
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							88.879997
+						</time>
+						<pose>
+							-0.307860 7.184360 0 0 0 -0.099138
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							90.559997
+						</time>
+						<pose>
+							0.261526 7.150556 0 0 0 -0.059301
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							92.239997
+						</time>
+						<pose>
+							0.823031 7.117219 0 0 0 -0.097406
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							93.919997
+						</time>
+						<pose>
+							1.423392 7.037023 0 0 0 -0.132792
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							95.599997
+						</time>
+						<pose>
+							2.015020 6.957995 0 0 0 -0.174424
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							97.279996
+						</time>
+						<pose>
+							2.546411 6.839131 0 0 0 -0.259677
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							98.959996
+						</time>
+						<pose>
+							3.067939 6.678260 0 0 0 -0.251309
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							100.639996
+						</time>
+						<pose>
+							3.633251 6.560099 0 0 0 -0.243023
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							102.319996
+						</time>
+						<pose>
+							4.187906 6.400595 0 0 0 -0.206052
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							103.999996
+						</time>
+						<pose>
+							4.740563 6.328650 0 0 0 -0.091077
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							105.679996
+						</time>
+						<pose>
+							5.288119 6.300113 0 0 0 -0.090801
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							107.359996
+						</time>
+						<pose>
+							5.825393 6.229875 0 0 0 -0.052071
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							109.039996
+						</time>
+						<pose>
+							6.404106 6.241950 0 0 0 -0.013819
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							110.719996
+						</time>
+						<pose>
+							6.928237 6.214633 0 0 0 -0.052071
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							112.399996
+						</time>
+						<pose>
+							7.445093 6.187696 0 0 0 -0.013819
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							114.079996
+						</time>
+						<pose>
+							7.999093 6.199834 0 0 0 -0.016400
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							115.759996
+						</time>
+						<pose>
+							8.584195 6.169013 0 0 0 -0.016691
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							117.439996
+						</time>
+						<pose>
+							9.121118 6.181104 0 0 0 0.064298
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							119.119995
+						</time>
+						<pose>
+							9.611601 6.235164 0 0 0 0.025533
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							120.799995
+						</time>
+						<pose>
+							10.131488 6.206907 0 0 0 0.021906
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							122.479995
+						</time>
+						<pose>
+							10.647178 6.257853 0 0 0 0.065183
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							124.159995
+						</time>
+						<pose>
+							11.115076 6.271112 0 0 0 -0.095610
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							125.839995
+						</time>
+						<pose>
+							11.610355 6.165483 0 0 0 -0.210124
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							125.840095
+						</time>
+						<pose>
+							11.610355 6.165483 -2.0 0 0 0
+						</pose>
+					</waypoint>
+					<waypoint>
+						<time>
+							1015.120100
+						</time>
+						<pose>
+							11.610355 6.165483 -2.0 0 0 0
+						</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
+		<light name="sun" type="directional">
+			<cast_shadows>
+				1
+			</cast_shadows>
+			<pose>
+				0 0 10 0 -0 0
+			</pose>
+			<diffuse>
+				0.8 0.8 0.8 1
+			</diffuse>
+			<specular>
+				0.2 0.2 0.2 1
+			</specular>
+			<attenuation>
+				<range>
+					1000
+				</range>
+				<constant>
+					0.9
+				</constant>
+				<linear>
+					0.01
+				</linear>
+				<quadratic>
+					0.001
+				</quadratic>
+			</attenuation>
+			<direction>
+				-0.5 0.1 -0.9
+			</direction>
+			<spot>
+				<inner_angle>
+					0
+				</inner_angle>
+				<outer_angle>
+					0
+				</outer_angle>
+				<falloff>
+					0
+				</falloff>
+			</spot>
+		</light>
+		<model name="ground_plane">
+			<static>
+				1
+			</static>
+			<link name="link">
+				<collision name="collision">
+					<geometry>
+						<plane>
+							<normal>
+								0 0 1
+							</normal>
+							<size>
+								100 100
+							</size>
+						</plane>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>
+								65535
+							</collide_bitmask>
+							<ode />
+						</contact>
+						<friction>
+							<ode>
+								<mu>
+									100
+								</mu>
+								<mu2>
+									50
+								</mu2>
+							</ode>
+							<torsional>
+								<ode />
+							</torsional>
+						</friction>
+						<bounce />
+					</surface>
+					<max_contacts>
+						10
+					</max_contacts>
+				</collision>
+				<visual name="visual">
+					<cast_shadows>
+						0
+					</cast_shadows>
+					<geometry>
+						<plane>
+							<normal>
+								0 0 1
+							</normal>
+							<size>
+								100 100
+							</size>
+						</plane>
+					</geometry>
+					<material>
+						<script>
+							<uri>
+								file://media/materials/scripts/gazebo.material
+							</uri>
+							<name>
+								Gazebo/Grey
+							</name>
+						</script>
+					</material>
+				</visual>
+				<self_collide>
+					0
+				</self_collide>
+				<enable_wind>
+					0
+				</enable_wind>
+				<kinematic>
+					0
+				</kinematic>
+			</link>
+		</model>
+		<gravity>
+			0 0 -9.8
+		</gravity>
+		<magnetic_field>
+			6e-06 2.3e-05 -4.2e-05
+		</magnetic_field>
+		<atmosphere type="adiabatic" />
+		<physics type="ode">
+			<max_step_size>
+				0.001
+			</max_step_size>
+			<real_time_factor>
+				1
+			</real_time_factor>
+			<real_time_update_rate>
+				1000
+			</real_time_update_rate>
+		</physics>
+		<scene>
+			<ambient>
+				0.4 0.4 0.4 1
+			</ambient>
+			<background>
+				0.7 0.7 0.7 1
+			</background>
+			<shadows>
+				1
+			</shadows>
+		</scene>
+		<wind />
+		<spherical_coordinates>
+			<surface_model>
+				EARTH_WGS84
+			</surface_model>
+			<latitude_deg>
+				0
+			</latitude_deg>
+			<longitude_deg>
+				0
+			</longitude_deg>
+			<elevation>
+				0
+			</elevation>
+			<heading_deg>
+				0
+			</heading_deg>
+		</spherical_coordinates>
+		<state world_name="default">
+			<sim_time>
+				0 0
+			</sim_time>
+			<real_time>
+				0 0
+			</real_time>
+			<wall_time>
+				1682666033 172342014
+			</wall_time>
+			<iterations>
+				0
+			</iterations>
+			<model name="ground_plane">
+				<pose>
+					0 0 0 0 -0 0
+				</pose>
+				<scale>
+					1 1 1
+				</scale>
+				<link name="link">
+					<pose>
+						0 0 0 0 -0 0
+					</pose>
+					<velocity>
+						0 0 0 0 -0 0
+					</velocity>
+					<acceleration>
+						0 0 0 0 -0 0
+					</acceleration>
+					<wrench>
+						0 0 0 0 -0 0
+					</wrench>
+				</link>
+			</model>
+			<model name='mywall1'>
+				<pose>28.849 -8.5 0 1.57 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>28.849 -8.5 0 1.57 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='mywall2'>
+				<pose>1.5 10.0302 -0.000422 1.57 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>1.5 10.0302 -0.000422 1.57 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall3'>
+        		<pose>16 4.75 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>16 4.75 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall4'>
+        		<pose>16 7.25 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>16 7.25 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall5'>
+        		<pose>16 9.75 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>16 9.75 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<!--model name='wall6'>
+        		<pose>-6 4.75 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>-6 4.75 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall7'>
+        		<pose>-6 7.25 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>-6 7.25 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall8'>
+        		<pose>-6 9.75 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>-6 9.75 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall9'>
+        		<pose>-6 12.25 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>-6 12.25 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<model name='wall10'>
+        		<pose>-6 2.25 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='link'>
+					<pose>-6 2.25 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model-->
+			
+			<model name='column1'>
+				<pose>-3.5 1.97 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='Wall_4'>
+					<pose>-3.5 1.97 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			
+			<model name='column2'>
+				<pose>-3.5 3.97 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='Wall_4'>
+					<pose>-3.5 3.97 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			
+			<model name='column3'>
+				<pose>-3.5 5.97 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='Wall_4'>
+					<pose>-3.5 5.97 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			
+			<model name='column4'>
+				<pose>-3.5 7.97 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='Wall_4'>
+					<pose>-3.5 7.97 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			
+			<model name='column5'>
+				<pose>-3.5 9.97 0 0 -0 0</pose>
+				<scale>1 1 1</scale>
+				<link name='Wall_4'>
+					<pose>-3.5 9.97 0 0 -0 0</pose>
+					<velocity>0 0 0 0 -0 0</velocity>
+					<acceleration>0 0 0 0 -0 0</acceleration>
+					<wrench>0 0 0 0 -0 0</wrench>
+				</link>
+			</model>
+			<light name="sun">
+				<pose>
+					0 0 10 0 -0 0
+				</pose>
+			</light>
+		</state>
+		<gui fullscreen="0">
+			<camera name="user_camera">
+				<pose>
+					12.4751 -9.84208 4.18899 0 0.275643 2.35619
+				</pose>
+				<view_controller>
+					orbit
+				</view_controller>
+				<projection_type>
+					perspective
+				</projection_type>
+			</camera>
+		</gui>
+		<model name='mywall1'>
+			<static>1</static>
+			<link name='link'>
+				<collision name='collision'>
+				<geometry>
+					<mesh>
+					<scale>0.01 0.01 0.01</scale>
+					<uri>model://mywall1/meshes/Pieza3.obj</uri>
+					</mesh>
+				</geometry>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='visual'>
+				<geometry>
+					<mesh>
+					<scale>0.01 0.01 0.01</scale>
+					<uri>model://mywall1/meshes/Pieza3.obj</uri>
+					</mesh>
+				</geometry>
+				</visual>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<pose>28.5 -8.5 0 1.57 -0 0</pose>
+		</model>
+		<model name='mywall2'>
+			<static>1</static>
+			<link name='link'>
+				<collision name='collision'>
+				<geometry>
+					<mesh>
+					<scale>0.01 0.01 0.01</scale>
+					<uri>model://mywall2/meshes/Pieza2.obj</uri>
+					</mesh>
+				</geometry>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='visual'>
+				<geometry>
+					<mesh>
+					<scale>0.01 0.01 0.01</scale>
+					<uri>model://mywall2/meshes/Pieza2.obj</uri>
+					</mesh>
+				</geometry>
+				</visual>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<pose>1.5 10.0302 -0.000422 1.57 -0 0</pose>
+		</model>
+		<model name='wall3'>
+			<pose>16 4.75 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall4'>
+			<pose>16 7.25 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall5'>
+			<pose>16 9.75 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<!--model name='wall6'>
+			<pose>-6 4.75 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall7'>
+			<pose>-6 7.25 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall8'>
+			<pose>-6 9.75 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall9'>
+			<pose>-6 12.25 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+		<model name='wall10'>
+			<pose>-6 2.25 0 0 -0 0</pose>
+			<link name='Wall_0'>
+				<collision name='Wall_0_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_0_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.0975 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_1'>
+				<collision name='Wall_1_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_1_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0.2275 -1.5225 0 0 -0 -1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_2'>
+				<collision name='Wall_2_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_2_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.1975 -1.9475 0 0 -0 3.14159</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<link name='Wall_3'>
+				<collision name='Wall_3_Collision'>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<max_contacts>10</max_contacts>
+				<surface>
+					<contact>
+					<ode/>
+					</contact>
+					<bounce/>
+					<friction>
+					<torsional>
+						<ode/>
+					</torsional>
+					<ode/>
+					</friction>
+				</surface>
+				</collision>
+				<visual name='Wall_3_Visual'>
+				<pose>0 0 1.25 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>1 0.15 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>-0.6225 -1.5225 0 0 -0 1.5708</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model-->
+
+
+		<model name='column1'>
+			<pose>-3.5 1.97 0 0 -0 0</pose>
+			<link name='Wall_4'>
+				<collision name='Wall_4_Collision'>
+					<geometry>
+						<box>
+						<size>0.2 0.2 2.5</size>
+						</box>
+					</geometry>
+					<pose>0 0 0 0 -0 0</pose>
+					<max_contacts>10</max_contacts>
+					<surface>
+						<contact>
+							<ode/>
+						</contact>
+						<bounce/>
+						<friction>
+							<torsional>
+								<ode/>
+							</torsional>
+							<ode/>
+						</friction>
+					</surface>
+				</collision>
+				<visual name='Wall_4_Visual'>
+				<pose>0 0  0 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>0.2 0.2 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0 0 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+
+
+		<model name='column2'>
+			<pose>-3.5 3.97 0 0 -0 0</pose>
+			<link name='Wall_4'>
+				<collision name='Wall_4_Collision'>
+					<geometry>
+						<box>
+						<size>0.2 0.2 2.5</size>
+						</box>
+					</geometry>
+					<pose>0 0 0 0 -0 0</pose>
+					<max_contacts>10</max_contacts>
+					<surface>
+						<contact>
+							<ode/>
+						</contact>
+						<bounce/>
+						<friction>
+							<torsional>
+								<ode/>
+							</torsional>
+							<ode/>
+						</friction>
+					</surface>
+				</collision>
+				<visual name='Wall_4_Visual'>
+				<pose>0 0  0 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>0.2 0.2 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0 0 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+
+
+		<model name='column3'>
+			<pose>-3.5 5.97 0 0 -0 0</pose>
+			<link name='Wall_4'>
+				<collision name='Wall_4_Collision'>
+					<geometry>
+						<box>
+						<size>0.2 0.2 2.5</size>
+						</box>
+					</geometry>
+					<pose>0 0 0 0 -0 0</pose>
+					<max_contacts>10</max_contacts>
+					<surface>
+						<contact>
+							<ode/>
+						</contact>
+						<bounce/>
+						<friction>
+							<torsional>
+								<ode/>
+							</torsional>
+							<ode/>
+						</friction>
+					</surface>
+				</collision>
+				<visual name='Wall_4_Visual'>
+				<pose>0 0  0 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>0.2 0.2 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0 0 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+
+
+		<model name='column4'>
+			<pose>-3.5 7.97 0 0 -0 0</pose>
+			<link name='Wall_4'>
+				<collision name='Wall_4_Collision'>
+					<geometry>
+						<box>
+						<size>0.2 0.2 2.5</size>
+						</box>
+					</geometry>
+					<pose>0 0 0 0 -0 0</pose>
+					<max_contacts>10</max_contacts>
+					<surface>
+						<contact>
+							<ode/>
+						</contact>
+						<bounce/>
+						<friction>
+							<torsional>
+								<ode/>
+							</torsional>
+							<ode/>
+						</friction>
+					</surface>
+				</collision>
+				<visual name='Wall_4_Visual'>
+				<pose>0 0  0 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>0.2 0.2 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0 0 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+
+
+		<model name='column5'>
+			<pose>-3.5 9.97 0 0 -0 0</pose>
+			<link name='Wall_4'>
+				<collision name='Wall_4_Collision'>
+					<geometry>
+						<box>
+						<size>0.2 0.2 2.5</size>
+						</box>
+					</geometry>
+					<pose>0 0 0 0 -0 0</pose>
+					<max_contacts>10</max_contacts>
+					<surface>
+						<contact>
+							<ode/>
+						</contact>
+						<bounce/>
+						<friction>
+							<torsional>
+								<ode/>
+							</torsional>
+							<ode/>
+						</friction>
+					</surface>
+				</collision>
+				<visual name='Wall_4_Visual'>
+				<pose>0 0  0 0 -0 0</pose>
+				<geometry>
+					<box>
+					<size>0.2 0.2 2.5</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+					<uri>file://media/materials/scripts/gazebo.material</uri>
+					<name>Gazebo/Grey</name>
+					</script>
+					<ambient>1 1 1 1</ambient>
+				</material>
+				<meta>
+					<layer>0</layer>
+				</meta>
+				</visual>
+				<pose>0 0 0 0 -0 0</pose>
+				<self_collide>0</self_collide>
+				<enable_wind>0</enable_wind>
+				<kinematic>0</kinematic>
+			</link>
+			<static>1</static>
+		</model>
+	</world>
+</sdf>

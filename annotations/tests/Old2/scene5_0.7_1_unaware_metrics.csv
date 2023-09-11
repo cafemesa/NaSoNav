@@ -1,0 +1,2 @@
+Init Robot Position X,Init Robot Position Y,Goal Robot Position X,Goal Robot Position Y,Time to goal (s),Path Lenght to goal (m),Avg Robot Speed (m/s),Min Ditance to Person (m),Max Time in Personal Area (s),Agent Id,Ped. Collitions,Ped. lower than min distance
+-0.992548,5.33377,12.6108,5.78453,35.057,13.5344,0.388092,0.45,2.652,162,0,0

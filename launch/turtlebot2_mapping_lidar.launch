@@ -1,0 +1,87 @@
+<launch>
+	<arg name="x" default="12.091963" />
+	<arg name="y" default="5.868032" />
+	<arg name="z" default="-2.0" />
+	<arg name="roll" default="0" />
+	<arg name="pitch" default="0" />
+	<arg name="yaw" default="0" />
+	<arg name="world_file" default="$(find social_navigation_testbed)/worlds/mapping.world" />
+
+	<!-- Launch Turtlebot Simulator -->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="use_sim_time" value="true" />
+		<arg name="debug" value="false" />
+		<arg name="gui" value="true" />
+		<arg name="world_name" value="$(arg world_file)" />
+	</include>
+
+	<arg name="urdf_file" default="$(find xacro)/xacro '$(find social_navigation_testbed)/launch/Turlebot_Velodyne_Model/kobuki.urdf.xacro'" />
+	<param name="robot_description" command="$(arg urdf_file)" />
+
+	<!-- Gazebo model spawner -->
+	<node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model" args="-x $(arg x) -y $(arg y)  -unpause -urdf -param robot_description -model mobile_base" />
+	
+    <!-- Velocity muxer -->
+	<node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager" />
+	<node pkg="nodelet" type="nodelet" name="cmd_vel_mux" args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
+		<param name="yaml_cfg_file" value="$(find turtlebot_bringup)/param/mux.yaml" />
+		<remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity" />
+	</node>
+	
+    <!-- Bumper/cliff to pointcloud (not working, as it needs sensors/core messages) -->
+	<include file="$(find turtlebot_bringup)/launch/includes/kobuki/bumper2pc.launch.xml" />
+	<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+		<param name="publish_frequency" type="double" value="30.0" />
+	</node>
+	
+    <!-- Start PointCloud Fast Filter (Convert 3D PointCloud into 2D Laser) -->
+	<node name="traversable_scan" pkg="traversable_mapping" type="traversable_scan">
+		<param name="subSensorTopic" value="/velodyne_points" />
+		<param name="subRobotPoseTopic" value="/amcl_pose" />
+		<param name="pubScanTopic" value="/scan_traversable" />
+		<param name="pubPointCloudTopic" value="/pointcloud_traversable" />
+		<param name="pubFrameId" value="base_link" />
+		<param name="robotHeight" value="0.85" />
+		<param name="sensorHeight" value="0.74" />
+		<param name="scanResolution" value="0.2" />
+		<param name="horizontalFieldOfView" value="360" />
+		<param name="pubScan" value="true" />
+		<param name="pubPointcloud" value="true" />
+	</node>
+	
+    <!-- Start gmapping -->
+	<node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+		<remap from="scan" to="scan_traversable" />
+		<param name="map_update_interval" value="5.0" />
+		<param name="linearUpdate" value="0.0" />
+		<param name="angularUpdate" value="0.0" />
+		<param name="maxUrange" value="6.0" />
+		<param name="sigma" value="0.05" />
+		<param name="kernelSize" value="1" />
+		<param name="lstep" value="0.05" />
+		<param name="astep" value="0.05" />
+		<param name="iterations" value="5" />
+		<param name="lsigma" value="0.075" />
+		<param name="ogain" value="3.0" />
+		<param name="lskip" value="0" />
+		<param name="minimumScore" value="200" />
+		<param name="srr" value="0.01" />
+		<param name="srt" value="0.02" />
+		<param name="str" value="0.01" />
+		<param name="stt" value="0.02" />
+		<param name="linearUpdate" value="0.0" />
+		<param name="angularUpdate" value="0.0" />
+		<param name="temporalUpdate" value="-1.0" />
+		<param name="resampleThreshold" value="0.5" />
+		<param name="particles" value="80" />
+		<param name="delta" value="0.05" />
+		<param name="llsamplerange" value="0.01" />
+		<param name="llsamplestep" value="0.01" />
+		<param name="lasamplerange" value="0.005" />
+		<param name="lasamplestep" value="0.005" />
+	</node>
+	
+    <!-- Open RViz -->
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find project_2021)/rviz_cfg/Mapping.rviz" />
+    
+</launch>

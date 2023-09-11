@@ -1,0 +1,39 @@
+<launch>
+
+	<arg name="world" default="scene9_0.3_1" />
+
+	<arg name="x" default="12.091963" /><!-- GAZEBO origin x -->
+	<arg name="y" default="5.868032" /><!-- GAZEBO origin y -->
+	<arg name="x2" default="0.700344" /><!-- GAZEBO goal x -->
+	<arg name="y2" default="4.908462" /><!-- GAZEBO goal y -->
+	<arg name="yaw" default="2.945059" /> <!-- TODO Ajustar -->
+	<arg name="linear_velocity" default="1.0" /> <!-- TODO Ajustar -->
+
+	<arg name="amcl_x" default="0" /><!-- RVIZ origin x -->
+	<arg name="amcl_y" default="0" /><!-- RVIZ origin y -->
+
+	<arg name="goal_x" default="-11.3916223" /><!-- RVIZ goal x -->
+	<arg name="goal_y" default="-0.95957" /><!-- RVIZ goal y -->
+
+	<arg name="method" default="sacadrl" /> <!-- "unaware", "sf", "rvo" "apa", "sacadrl" -->
+
+	
+
+	<!-- Start Robot controller -->
+	<group if="$(eval method == 'sacadrl')">
+		<node name="sacadrl" pkg="social_navigation_testbed" type="sacadrl.py" output="screen" >
+			<param name="goal_x" value="$(arg x2)" />
+			<param name="goal_y" value="$(arg y2)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+	<group if="$(eval method != 'sacadrl')">
+		<node name="robot_controller" pkg="social_navigation_testbed" type="robot_controller">
+			<param name="method" value="$(arg method)" />
+			<param name="goal_x" value="$(arg x2)" />
+			<param name="goal_y" value="$(arg y2)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+	
+</launch>

@@ -1,0 +1,31 @@
+<launch>
+	<!-- World to be executed sceneX_Y.Y_Z. 
+	X is the scenario ID [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 
+	Y.Y is the speed [0.3, 0.4, 0.5, 0.7, 1.0, 1.5]
+	z is type of environment [0 with the agent, 1 without the agent] -->
+	<arg name="world" default="scene0_0.3_0" /> 
+	<arg name="actorId" default="7" /> <!-- Actor Id to store metrics -->
+	<arg name="personal_area_radius" default="1.2" /> <!-- For time in personal area metric -->
+	<arg name="distance_collition" default="0.45" /> <!-- Distance to another person to count as collision -->
+	<arg name="store_folder" default="$(find social_navigation_testbed)/annotations/model/" /> <!-- Folder path to store metric files -->
+
+	<!-- Launch Turtlebot Simulator -->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="use_sim_time" value="true" />
+		<arg name="debug" value="false" />
+		<arg name="gui" value="false" />
+		<arg name="world_name" value="$(find social_navigation_testbed)/worlds/$(arg world).world" />
+	</include>
+
+    <!-- Run annotations node -->
+	<node name="store_metrics_model" type="store_metrics_model" pkg="social_navigation_testbed" output="screen" >
+	    <param name="distance2personsFileName" value="$(arg store_folder)$(arg world)_distance2persons.csv" />
+	    <param name="time2goalFilename" value="$(arg store_folder)$(arg world)_metrics.csv" />
+	    <param name="timeInPersonAreaFileName" value="$(arg store_folder)$(arg world)_timeInPersonalArea.csv" />
+	    <param name="robotPositionsFileName" value="$(arg store_folder)$(arg world)_robotPositionsFileName.csv" />
+	    <param name="personalAreaRadius" value="$(arg personal_area_radius)" />
+	    <param name="distance_collition" value="$(arg distance_collition)" />
+		<param name="actorId" value="$(arg actorId)" />
+	</node>
+
+</launch>

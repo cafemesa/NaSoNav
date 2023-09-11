@@ -1,0 +1,6 @@
+<launch>
+    <node name="create_simulated_environmets" pkg="social_navigation_testbed" type="create_simulated_environmets" output="screen">
+        <param name="input_file" value="/home/carlos/catkin_ws/src/social_navigation_testbed/dataset/seq_eth/obsmat.txt" />
+        <param name="output_worlds_folder" value="/home/carlos/catkin_ws/" />
+    </node>
+</launch>
