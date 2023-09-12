@@ -21,6 +21,8 @@ cd ..
 catkin_make
 ```
 
+For this simulator we create an standard enviroment based on the observed in the dataset. For this reason, we desing some walls that help for the localization of the robot during the simulation. To run succesfully the simulator you need to add these models the the gazebo library. To do this, just copy the folders inside gazebo_models into ~/gazebo/model/ folder.
+
 ## 3. Run the simulator
 
 1. First terminal
@@ -34,7 +36,7 @@ roscore
 rosrun social_navigation_testbed run_experiment.py
 ```
 
-The results of the experiment will be stored in annotations/tests/
+The results of the experiment will be stored in annotations/tests/, and the general information about collisions and timeouts, will be stored en the folder where you run this script
 
 ## 4. Customize the simulator
 
