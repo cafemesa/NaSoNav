@@ -17,11 +17,11 @@ navigationMethods = ["unaware", "sf", "rvo" , "sacadrl"]
 
 # Array Scene IDs for simulation
 # sceneIds = [0,1,2,3,4,5,6,7,8,9]
-sceneIds = [9]
+sceneIds = [0,1,2,3,4,5,6,7,8,9]
 
 # Arry with Speeds to be evaluated
 speedsValuesAll = [0.3, 0.4, 0.5, 0.7, 1.0, 1.5]
-speedsValues = [1.5]
+speedsValues = [0.3, 0.4, 0.5, 0.7, 1.0, 1.5]
 
 class SuccessRate():
     pedestrian_collisions = 0
