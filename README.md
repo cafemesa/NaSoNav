@@ -54,7 +54,7 @@ roslaunch social_navigation_testbed create_simulated_environments.launch
 
 To run the simulator with the new speed modify the lines 23 and 24 in the run_experiment.py file. In line 23 the variables speedsValuesAll contain all the values the user can choose, add your new speed here. In the line 24, speedsValues contain the speed that will be executed for the experiment, add the desired ones here from the existing in the previous line.
 
-3. Testinc scenes: The scenes are defined in sceneIds (line 20). As default  the simulator works with the scenes 0 to 9. If you want, is possible to remove from the simulator some scenes just removing from the array. 
+3. Testing scenes: The scenes are defined in sceneIds (line 20). As default  the simulator works with the scenes 0 to 9. If you want, is possible to remove from the simulator some scenes just removing from the array. 
 
 If you want to create a new simulated environment on another fragment of the dataset, edit the node file in src/create_simulated_environments.cpp, lines 55-57. Here you can define the initFrame, the endFrame and the personId that willl be removed from the scene and be replaced with the robot. Then compile your workspace and run:
 
@@ -68,4 +68,28 @@ To run the simulator with the new scene modify the lines 20 in the run_experimen
   int initFrames[] = {824, 2199, 4249, 6299, 7299, 7749, 8349, 9624, 10324, 10625, xxxxx};
   int endFrames[] = {1026, 2399, 4449, 6474, 7449, 7899, 8499, 9724, 10499, 10950, yyyyy};
   int hiddenPersonsIds[] = {7, 48, 77, 124, 150, 159, 189, 226, 273, 303, zzz};
+```
+
+## 5. Other tools
+
+1. Path irregularity calculation.
+
+As part of the simulator, we have added the file path_irregularity.py. This script will calculate the irregularity of the path for the conducted experiments. You only need to modify lines 11-13. In line 11, you should change the scene IDs, in line 12 the velocities, and in line 13 the navigation algorithms. The script will print the results in the terminal for the scenarios with the selected combinations. To run the script execute the following commands.
+```
+cd ~/catkin_ws/src/NaSoNav
+python path_irregularity.py
+```
+
+2. Plot resulnting paths.
+
+As part of the simulator, we have added the file graph_paths.py. This script will plot the path of the agent and robot in the selected results files. You only need to modify lines 40 and 41. In line 40, you should add the labels of each path you will plot and in line 41 you should add the corresponding files with the imprmation to be plotted. The paths are stores in the annotation folder, in "model" are the results for the expermient with the selected agent and in "tests" are the results with the robots. the files follow the following pattern:
+
+sceneX_Y.Y_Z_agentPositionsFileName.csv (for the experiment with agent)
+sceneX_Y.Y_Z_METHOD_robotPositionsFileName.csv (for the experiment with robot)
+
+Where X is the sceneID, Y.Y is the normalized speed. Z is the indentifier that tell us if is a simulation with robot or person. And METHOD is the navigation algorith name.
+
+```
+cd ~/catkin_ws/src/NaSoNav
+python graph_paths.py
 ```

@@ -29,33 +29,26 @@ ax.set_ylim([-8, 3])
 x_offset = -12.091963
 y_offset = -5.868032
 
-
-
-# Función para graficar un archivo CSV
 def graficar_csv(nombre_archivo, color, i):
-    # Leer el archivo CSV
     df = pd.read_csv(nombre_archivo)
     
-    # Extraer las columnas X e Y
     x = df['x'] + x_offset
     y = df['y'] + y_offset
     
-    # Graficar los puntos with the specified color
     ax.scatter(x, y, label=labels[i], color=color, s=5)
 
 labels = ["GT", "PUA", "SF", "ORCA", "SACADRL"]
+num_archivos = ["annotations/model/scene6_1.5_0_agentPositionsFileName.csv", "annotations/tests/scene6_1.5_1_unaware_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_sf_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_rvo_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_sacadrl_robotPositionsFileName.csv"]
 
-# Solicitar al usuario la cantidad de archivos a procesar
-num_archivos = ["annotations/model/scene6_1.5_0_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_unaware_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_sf_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_rvo_robotPositionsFileName.csv", "annotations/tests/scene6_1.5_1_sacadrl_robotPositionsFileName.csv"]
-# Crear una lista de colores para asignar a cada archivo
+# Color List
 colores = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
 
-# Iterar a través de los archivos
+
 for i in range(len(num_archivos)):
-    color = colores[i % len(colores)]  # Ciclar a través de los colores
+    color = colores[i % len(colores)] 
     graficar_csv(num_archivos[i], color, i)
 
-# Configure the plot
+
 ax.set_xlabel('X (m)')
 ax.set_ylabel('Y (m)')
 ax.legend()
